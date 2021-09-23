@@ -27,7 +27,7 @@
     "emoji"
   ],
   "files": [
-    "lib"
+    "bin"
   ],
   "license": "MIT",
   "bugs": {
