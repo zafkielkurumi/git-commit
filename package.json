@@ -1,7 +1,7 @@
 {
-  "name": "git-commit",
-  "version": "1.0.0",
-  "description": "git commit auto icon",
+  "name": "git-commit-emoji",
+  "version": "1.0.1",
+  "description": " Git Commit Message Conventions",
   "main": "index.js",
   "engines": {
     "node": ">=12"
@@ -19,8 +19,17 @@
     "type": "git",
     "url": "git+https://github.com/zafkielkurumi/git-commit.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "tokisakikurumi"
+  },
+  "keywords":[
+    "commit",
+    "emoji"
+  ],
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zafkielkurumi/git-commit/issues"
   },
