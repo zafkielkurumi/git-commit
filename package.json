@@ -1,6 +1,6 @@
 {
   "name": "git-commit-emoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple way to regulate the git commit message and add git emoji ",
   "main": "index.js",
   "engines": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "watch":"tsc -w",
+    "watch": "tsc -w",
     "build": "tsc "
   },
   "bin": {
@@ -22,7 +22,7 @@
   "author": {
     "name": "tokisakikurumi"
   },
-  "keywords":[
+  "keywords": [
     "commit",
     "emoji"
   ],
