@@ -6,6 +6,9 @@ import { COMMIT_TYPE_CHOICES } from "./constant";
 import { Command } from "commander";
 import { getEmojis } from "./util/getEmojis";
 import execa from "execa";
+import searchCheckbox from 'inquirer-search-checkbox'
+
+inquirer.registerPrompt('search-checkbox', searchCheckbox)
 
 function main() {
   const commit = new Command();
@@ -57,7 +60,7 @@ async function inquirerPrompt(EMOJI_CHOICES) {
         message: "git commit option",
       },
       {
-        type: "checkbox",
+        type: "search-checkbox",
         name: "emoji",
         message: "git emoji",
         choices: EMOJI_CHOICES,
