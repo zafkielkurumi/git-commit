@@ -1,6 +1,6 @@
 {
   "name": "git-commit-emoji",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple way to regulate the git commit message and add git emoji ",
   "main": "index.js",
   "engines": {

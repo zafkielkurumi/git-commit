@@ -24,12 +24,12 @@ export const COMMIT_TYPE_CHOICES = [
     value: "Style-:art:",
   },
   {
-    name: "Refactor-:recycle:♻️ 代码重构，没有加新功能或者修复bug", // 
-    value: "Refactor-:recycle:",
+    name: "Refactor♻️ 🔨代码重构（:hammer:，:recycle:）", // 
+    value: "Refactor",
   },
   {
-    name: "Perf-:rocket:🚀 优化相关，比如提升性能、体验", // 
-    value: "Perf-:rocket:",
+    name: "Perf-:zap:⚡️ 优化相关，比如提升性能、体验", // 
+    value: "Perf-:zap:",
   },
   {
     name: "Test-:white_check_mark:✅增加测试用例", // 
